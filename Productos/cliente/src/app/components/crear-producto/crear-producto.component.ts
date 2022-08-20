@@ -24,6 +24,8 @@ export class CrearProductoComponent implements OnInit {
 
   agregarProducto(){
     console.log(this.productoForm);
+
+    console.log(this.productoForm.get('producto')?.valid);
   }
 
 }
